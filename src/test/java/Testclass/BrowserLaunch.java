@@ -14,7 +14,7 @@ public class BrowserLaunch {
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
 	driver.get("https://google.com");
-	
+	driver.quit();
 	
   }
 }
